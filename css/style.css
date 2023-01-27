@@ -1,0 +1,311 @@
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-ExtraBold.woff2') format('woff2'),
+  url('../fonts/LexendDeca-ExtraBold.woff') format('woff'),
+  url('../fonts/LexendDeca-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-Black.woff2') format('woff2'),
+  url('../fonts/LexendDeca-Black.woff') format('woff'),
+  url('../fonts/LexendDeca-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-Bold.woff2') format('woff2'),
+  url('../fonts/LexendDeca-Bold.woff') format('woff'),
+  url('../fonts/LexendDeca-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-ExtraLight.woff2') format('woff2'),
+  url('../fonts/LexendDeca-ExtraLight.woff') format('woff'),
+  url('../fonts/LexendDeca-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-Medium.woff2') format('woff2'),
+  url('../fonts/LexendDeca-Medium.woff') format('woff'),
+  url('../fonts/LexendDeca-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-Light.woff2') format('woff2'),
+  url('../fonts/LexendDeca-Light.woff') format('woff'),
+  url('../fonts/LexendDeca-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('../fonts/SpaceMono-Bold.woff2') format('woff2'),
+  url('../fonts/SpaceMono-Bold.woff') format('woff'),
+  url('../fonts/SpaceMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-SemiBold.woff2') format('woff2'),
+  url('../fonts/LexendDeca-SemiBold.woff') format('woff'),
+  url('../fonts/LexendDeca-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-Regular.woff2') format('woff2'),
+  url('../fonts/LexendDeca-Regular.woff') format('woff'),
+  url('../fonts/LexendDeca-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('../fonts/SpaceMono-Regular.woff2') format('woff2'),
+  url('../fonts/SpaceMono-Regular.woff') format('woff'),
+  url('../fonts/SpaceMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-Regular_1.woff2') format('woff2'),
+  url('../fonts/LexendDeca-Regular_1.woff') format('woff'),
+  url('../fonts/LexendDeca-Regular_1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-Thin.woff2') format('woff2'),
+  url('../fonts/LexendDeca-Thin.woff') format('woff'),
+  url('../fonts/LexendDeca-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root{
+  --site-color: #FCB72B;
+  --site-color2: #fff;
+  --site-color3: #495567;
+}
+
+/* General Css */
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-size: 16px;
+}
+
+img{
+  display: inline-block;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--site-color);  
+  border-radius: 50px;  
+} 
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1440px;
+}
+
+.site__btn{
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--site-color2);
+  background: var(--site-color);
+  border: 1px solid var(--site-color);
+  transition: 2s;
+}
+
+.site__btn:hover{
+  color: var(--site-color);
+  transition: 1s;
+  background-color: var(--site-color2);
+  border: 1px solid var(--site-color);
+}
+
+.logo{
+  position: relative;
+  width: 250px;
+  height: 50px;
+  background-color: grey;
+}
+
+.header-logo__img{
+  position: relative;
+  top: 10px;
+  left: 65px;
+  width: 107.82px;
+  height: 28.56px;
+}
+
+.header__nav{  
+  position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  transition: .5s;
+  background-color: #000;
+}
+
+.header-menu__link{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding-left: 20px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  transition: .4s;
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+}
+
+.header-menu__link:hover{
+  padding-left: 40px;
+}
+
+#check{
+  display: none;
+}
+
+label #btn,label #cancel{
+  position: absolute;
+  cursor: pointer;
+}
+
+label #btn{
+  top: 25px;
+  left: 40px;
+  color: black;
+  font-size: 35px;
+  transition: all .7s;
+}
+
+label #cancel{
+  z-index: 1111;
+  left: -210px;
+  top: 10px;
+  font-size: 35px;
+  color: #000;
+  transition: .5s;
+}
+
+#check:checked ~ .header__nav{
+  left: 0;
+}
+
+#check:checked ~ label #btn{
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+  left: 210px;
+}
+
+.hero__container{
+  width: 1440px;
+  height: 650px;
+  padding-top: 120px;
+  background-image: url(../img/home-hero-bg-img.svg);
+  background-repeat: no-repeat;
+}
+
+.header__title{
+  padding-left: 165px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: var(--site-color2);
+}
+
+.header__text{
+  padding-left: 240px;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--site-color2);
+}
+
+.header-hero__btn{
+  position: relative;
+  top: 40px;
+  left: 239px;
+  padding: 14px 39px 14px 39px;
+}

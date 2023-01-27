@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-ExtraBold.woff2') format('woff2'),
+        url('LexendDeca-ExtraBold.woff') format('woff'),
+        url('LexendDeca-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Black.woff2') format('woff2'),
+        url('LexendDeca-Black.woff') format('woff'),
+        url('LexendDeca-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Bold.woff2') format('woff2'),
+        url('LexendDeca-Bold.woff') format('woff'),
+        url('LexendDeca-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-ExtraLight.woff2') format('woff2'),
+        url('LexendDeca-ExtraLight.woff') format('woff'),
+        url('LexendDeca-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Medium.woff2') format('woff2'),
+        url('LexendDeca-Medium.woff') format('woff'),
+        url('LexendDeca-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Light.woff2') format('woff2'),
+        url('LexendDeca-Light.woff') format('woff'),
+        url('LexendDeca-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('SpaceMono-Bold.woff2') format('woff2'),
+        url('SpaceMono-Bold.woff') format('woff'),
+        url('SpaceMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-SemiBold.woff2') format('woff2'),
+        url('LexendDeca-SemiBold.woff') format('woff'),
+        url('LexendDeca-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Regular.woff2') format('woff2'),
+        url('LexendDeca-Regular.woff') format('woff'),
+        url('LexendDeca-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('SpaceMono-Regular.woff2') format('woff2'),
+        url('SpaceMono-Regular.woff') format('woff'),
+        url('SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Regular_1.woff2') format('woff2'),
+        url('LexendDeca-Regular_1.woff') format('woff'),
+        url('LexendDeca-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('LexendDeca-Thin.woff2') format('woff2'),
+        url('LexendDeca-Thin.woff') format('woff'),
+        url('LexendDeca-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
